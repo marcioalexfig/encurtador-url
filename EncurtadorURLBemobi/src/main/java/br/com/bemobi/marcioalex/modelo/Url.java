@@ -6,9 +6,10 @@ import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.springframework.data.annotation.Id;
+
 
 
 
@@ -18,14 +19,7 @@ import org.springframework.data.annotation.Id;
 @Table(name="url")
 public class Url implements Serializable{
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 8594140514740606908L;
-	/**
-	 * 
-	 */
-
+	private static final long serialVersionUID = 5608579500584941660L;
 	private Integer id;
 	private String urlOriginal;
 	private String urlEncurtada;
