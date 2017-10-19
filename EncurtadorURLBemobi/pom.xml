@@ -53,7 +53,26 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-	
+	       <!-- Adição de Swagger e Swagger-UI (http://localhost:8080/swagger-ui.html) -->
+       
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+        
+         		<!-- BCript para criação alias, escolhido este pois cria codigos diferentes para o mesmo alias mesmo que utilizado repetidamente -->
+         <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+
          <dependency>
          	<groupId>org.springframework.boot</groupId>
          	<artifactId>spring-boot-starter-social-twitter</artifactId>
